@@ -129,8 +129,43 @@ body{
 .main-video-section .row{
   height: 100vh;
 }
+.video-header{
+  text-align:right;
+}
+.video-header .place-name span{
+  background-color: #fff;
+  padding: 5px 10px 5px 10px;
+  font-size:16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.video-header .place-state span{
+  background-color: #000;
+  color: #fff;
+  padding:5px 10px 5px 10px;
+  font-size:16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
 .main-video{
   margin-left:-80px;
+}
+.video-icon{
+  position:absolute;
+  font-size: 64px;
+  z-index: 1;
+  width: 100px;
+  height: 200px;
+  border-top-right-radius:200px;
+  border-bottom-right-radius:200px;
+  margin-top: 45px;
+  padding: 50px 0px 0px 5px;
+  background-color: rgba(0, 0, 0, .9);
+  cursor: pointer;
+  color: #fff;
+}
+.video-icon:hover{
+  color: #fbb004;
+  transition: 1s;
+  transition-timing-function: ease-out;
 }
 /*right-section*/
 /*landing-page*/
@@ -140,6 +175,9 @@ body{
     margin-right: 0 !important;
     margin-top: 0 !important;
     margin-bottom: 0 !important;
+  }
+  .main-landing-page{
+    height: 150vh;
   }
   .title-section{
     padding-right: 0px !important;
@@ -180,4 +218,47 @@ body{
     padding-right: 0px;
   }
   /* main-title ends */
+  /*right-section*/
+  .main-video-section .row{
+    height: 50vh;
+  }
+  .video-header{
+    text-align:left;
+  }
+  .video-header .place-name span{
+    background-color: #fff;
+    padding: 5px 10px 5px 10px;
+    font-size:16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  .video-header .place-state span{
+    background-color: #000;
+    color: #fff;
+    padding:5px 10px 5px 10px;
+    font-size:16px;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+  .main-video{
+    margin-left:0px;
+  }
+  .video-icon{
+    position:absolute;
+    font-size: 40px;
+    z-index: 1;
+    width: 50px;
+    height: 100px;
+    border-top-right-radius:100px;
+    border-bottom-right-radius:100px;
+    margin-top: 7px;
+    padding: 20px 0px 0px 5px;
+    background-color: rgba(0, 0, 0, .9);
+    cursor: pointer;
+    color: #fff;
+  }
+  .video-icon:hover{
+    color: #fbb004;
+    transition: 1s;
+    transition-timing-function: ease-out;
+  }
+  /*right-section*/
 }
