@@ -17,9 +17,11 @@
     <div class="container-fluid">
       <!--navbar starts-->
        <nav class=" row navbar navbar-expand-lg fixed-top">
-          <a class="navbar-brand" href="#">Livingstone</a>
+          <a class="navbar-brand ml-4" href="#">
+            <img src="img/logo.svg" width="40" height="40" alt="logo">
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"><i class="fas fa-bars" style="font-size:28px;"></i></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -41,23 +43,38 @@
         </nav>
         <!--navbar ends-->
         <!-- fixed-side nav -->
-      
+
         <!-- fixed-side nav -->
         <div class="row main-landing-page">
-          <div class="col-lg-6 title-section">
+          <div class="col-lg-6 col-sm-12 title-section"><!--title-left-section-->
             <div class="row align-items-center">
-              <div class="col-12">
+              <div class="col-12 mt-5">
                 <span class="box-title"></span>
                 <p class="main-title">Livingstone</p>
                 <p class="tag-line">A way to stay</p>
-
+                <p class="about-text mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                   incididunt ut labore et dolore magna aliqua.</p>
+                <button class="btn about-button" type="button" href="#">About</button>
               </div>
             </div>
-
-          </div>
-          <div class="col-lg-6 main-video-section">
-
-          </div>
+          </div><!--/title-left-section-->
+          <div class="col-lg-6 col-sm-12 main-video-section"><!--video-right-section-->
+            <div class="row align-items-center">
+              <div class="col-lg-12 col-sm-12 main-video">
+                <div class="video-header">
+                  <p class="place-name"><span><i class="fas fa-map-marker-alt" style="margin:0px 5px 0px 5px;"></i>Chitkul</span></p>
+                  <p class="place-state"><span>Himachal pradesh</spam></p>
+                </div>
+                <div class="video-icon">
+                  <i class="fas fa-play"></i>
+                </div>
+                <div class="embed-responsive embed-responsive-21by9 shadow">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=RsSDBSPy7yM">
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div><!--/video-right-section-->
         </div>
     </div>
     <!--js-bootstrap-->
