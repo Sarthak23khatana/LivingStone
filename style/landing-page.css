@@ -216,6 +216,10 @@ body{
 .destination-place-detail{
   padding: 5px;
 }
+.destination-place-detail h3{
+ font-family: 'Montserrat Alternates', sans-serif;
+ font-weight: bold;
+}
 /* numscroller */
 .num-container{
   padding: 10px;
@@ -280,6 +284,60 @@ body{
   text-shadow: 1px 1px 5px #000;
 }
 /* /numscroller */
+/* reviews */
+.review-section{
+  margin:50px 0 50px 0;
+}
+.review-title{
+  position: absolute;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  z-index: 2;
+  margin-left: 100px;
+  letter-spacing: 2px;
+  color: #000;
+}
+.review-box{
+  position: absolute;
+  width: 60px;
+  height: 42px;
+  z-index: 1;
+  background-color: #fbb004;
+  margin-left: 200px;
+}
+.review-card-row{
+  margin: 50px 0px 50px 0px;
+}
+.carousel-control-prev{
+  left:-100px !important;
+}
+.carousel-control-next{
+  right:-100px !important;
+}
+.carousel-item{
+  transition: transform 3s ease, opacity .5s ease-out;
+}
+.card .row{
+  padding: 10px;
+}
+.card h6{
+  font-family: 'Poiret One', sans-serif;
+}
+.card h5{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.img-col{
+  padding: 10px;
+}
+.img-col img {
+  border: solid 3px #000;
+}
+.fa-star{
+  font-size: 48px;
+  color: #fbb004;
+}
+/* /reviews */
 /* /destination section */
 @media (max-width:480px){
   .row{
